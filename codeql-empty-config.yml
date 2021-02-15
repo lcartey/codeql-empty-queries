@@ -1,0 +1,7 @@
+name: "Empty config"
+
+disable-default-queries: true
+
+queries:
+  - uses: ./empty-language-packs/java/Empty.ql
+  - uses: ./empty-language-packs/javascript/Empty.ql
