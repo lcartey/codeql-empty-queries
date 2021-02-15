@@ -3,9 +3,9 @@ name: "Empty config"
 disable-default-queries: true
 
 queries:
-  - uses: ./empty-language-packs/java/Empty.ql
-  - uses: ./empty-language-packs/javascript/Empty.ql
-  - uses: ./empty-language-packs/go/Empty.ql
-  - uses: ./empty-language-packs/cpp/Empty.ql
-  - uses: ./empty-language-packs/csharp/Empty.ql
-  - uses: ./empty-language-packs/python/Empty.ql
+  - uses: ./java/Empty.ql
+  - uses: ./javascript/Empty.ql
+  - uses: ./go/Empty.ql
+  - uses: ./cpp/Empty.ql
+  - uses: ./csharp/Empty.ql
+  - uses: ./python/Empty.ql
